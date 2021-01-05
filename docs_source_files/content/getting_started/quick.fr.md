@@ -20,22 +20,17 @@ il est non intrusif par nature. Ainsi vous testez exactement l'application qui s
 
 _[IDE](https://selenium.dev/selenium-ide)_ (Integrated Development Environment) 
 est l'outil que vous utilisez pour développer vos cas de test Selenium. Il s'agit d'un Chrome facile à utiliser
-et l'extension Firefox et est généralement le moyen le plus efficace de développer
+et l'extension Firefox est généralement le moyen le plus efficace de développer des 
 cas de test. Il enregistre pour vous les actions des utilisateurs dans le navigateur, en utilisant
-commandes Selenium existantes, avec des paramètres définis par le contexte de
+les commandes Selenium existantes, avec des paramètres définis par le contexte de
 cet élément. Ce n'est pas seulement un gain de temps, mais aussi un excellent moyen
 d'apprentissage de la syntaxe du script Selenium.
 
 
 ## Grid
 
-Selenium Grid allows you to run test cases in different 
-machines across different platforms. The control of 
-triggering the test cases is on the local end, and 
-when the test cases are triggered, they are automatically 
-executed by the remote end.
+Selenium Grid vous permet d'exécuter des cas de test sur différentes machines de différentes plateformes.
+Le contrôle du déclenchement des cas de test est en local, et quand les tests sont déclenchés, ils sont automatiquement exécutés sur la partie distante.
 
-After the development of the WebDriver tests, you may face 
-the need of running your tests on multiple browser and 
-operating system combinations.
-This is where _[Grid]({{< ref "/grid/_index.md" >}})_ comes into the picture.
+Après le développement de tests WebDriver, vous pourriez avoir besoin d'exécuter les tests sur des combinaisons de multiples navigateurs et de systèmes d'exploitations.
+C'est ici qu'intervient _[Grid]({{< ref "/grid/_index.md" >}})_ .
